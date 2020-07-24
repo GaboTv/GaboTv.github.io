@@ -1,0 +1,14 @@
+<form>
+  <button>Connect BLE</button>
+</form>
+
+<script>
+  function isWebBLEAvailable(){
+    if(!navigator.bluetooth){
+      console.log('Web BLE Not Available')
+      return false
+    }
+    return true
+    
+  }
+</script>
